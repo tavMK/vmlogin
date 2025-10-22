@@ -280,7 +280,7 @@ app.get('/auth/google/callback',
     );
     
     // Redirect to frontend with token
-    res.redirect(`http://localhost:3000/auth/success?token=${token}&provider=google`);
+    res.redirect(`548337435809-59jsq74t9oe2m45maih00tm8hrrpe4us.apps.googleusercontent.com`);
   }
 );
 
@@ -401,4 +401,5 @@ function sanitizeUser(user) {
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+
 });
